@@ -25,9 +25,57 @@ body {
   height: 350px;
   width: 250px;
   background-color: red;
-  border: black 3px ;
-  box-shadow: 10px 3px 3px ;
+  border: black 3px;
+  box-shadow: 10px 3px 3px;
 }
 
-
-
+.bigflex {
+  display: flex;
+  border:rgb(10, 212, 255) 2px solid;
+  justify-content: space-between;
+}
+.flex1 {
+  display: flex;
+  border: rgb(17, 8, 198) 2px solid;
+  width: 30%;
+}
+.flex2 {
+  display: flex;
+  border: red 2px solid;
+  width: 30%;
+}
+.flex3 {
+  display: flex;
+  border:rgb(114, 113, 123) 2px solid;
+  width: 30%;
+}
+.box {
+  display: flex;
+  position: relative;
+  background-image: linear-gradient(red (213, 27, 27) orange);
+  height: 300px;
+  width: 100%;
+  border: black 5px solid;
+}
+.star {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  background: rgb(205, 4, 4);
+  color: white;
+  margin: auto;
+  
+}
