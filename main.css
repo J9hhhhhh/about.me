@@ -4,7 +4,7 @@ body {
   background: rgb(0, 212, 255);
   background: linear-gradient(
     90deg,
-    rgba(0, 212, 255, 1) 33%,
+    rgb(14, 72, 83) 33%,
     rgba(32, 59, 140, 1) 64%,
     rgb(10, 4, 124) 100%
   );
@@ -33,21 +33,22 @@ body {
   display: flex;
   border:rgb(10, 212, 255) 2px solid;
   justify-content: space-between;
+  flex-wrap: wrap; 
 }
 .flex1 {
   display: flex;
   border: rgb(17, 8, 198) 2px solid;
-  width: 30%;
+  width: 100px;
 }
 .flex2 {
   display: flex;
   border: red 2px solid;
-  width: 30%;
+  width: 100px;
 }
 .flex3 {
   display: flex;
   border:rgb(114, 113, 123) 2px solid;
-  width: 30%;
+  width: 100px;
 }
 .box {
   display: flex;
