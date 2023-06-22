@@ -2,7 +2,6 @@
 
 html {
   scroll-behavior: smooth;
-  
 }
 
 body {
@@ -110,5 +109,35 @@ body {
     transform: translateY(-200px);
   }
 }
+.calender {
+  width: 70%;
+  margin: 10rem auto;
+  height: 70vh;
+}
 
+.week {
+  display: flex;
+  border: 2px solid black;
+  height: 10vh;
+}
 
+.day {
+  border: 2px black solid;
+  height: 10vh;
+  width: 14.3%;
+}
+.day::before {
+  content: attr(day);
+  display: flex;
+  height: 20px;
+  width: 20px;
+  border: black 1px solid;
+  font-size: medium;
+  justify-content: center;
+}
+.day::after {
+content: attr(weekend);
+display: flex;
+transform: translate(60%, 30%);
+font-size: medium;
+}
